@@ -133,6 +133,18 @@ const config = {
                 label: "[2020-09-17] Almería",
                 to: "/viajes/2020/almeria",
               },
+              {
+                label: "[2021-06-04] Pobla de Farnals",
+                to: "/viajes/2021/pobla-farnals",
+              },
+              {
+                label: "[2021-06-30] Menorca",
+                to: "/viajes/2021/menorca",
+              },
+              {
+                label: "[2021-07-16] Cambrils",
+                to: "/viajes/2021/cambrils",
+              },
             ],
           },
           {
