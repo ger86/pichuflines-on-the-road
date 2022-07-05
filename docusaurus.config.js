@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ger86", // Usually your GitHub org/user name.
+  projectName: "pichuflines-on-the-road", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -50,8 +50,8 @@ const config = {
       navbar: {
         title: "Pichuflines",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Pichuflines",
+          src: "img/logo.jpg",
         },
         items: [
           {
@@ -87,6 +87,10 @@ const config = {
               {
                 label: "[2018-12-09] Chinchón",
                 to: "/viajes/2018/chinchon",
+              },
+              {
+                label: "[2019-03-16] Casa rural informates",
+                to: "/viajes/2019/casa-rural-informates",
               },
               {
                 label: "[2019-04-26] Tenerife",
@@ -145,10 +149,44 @@ const config = {
                 label: "[2021-07-16] Cambrils",
                 to: "/viajes/2021/cambrils",
               },
+              {
+                label: "[2021-08-14] Suances",
+                to: "/viajes/2021/suances",
+              },
+              {
+                label: "[2021-09-03] Boda de Aida y Toni",
+                to: "/viajes/2021/boda-aida-toni",
+              },
+              {
+                label: "[2021-09-10] Boda de Josu y Ari",
+                to: "/viajes/2021/boda-josu-ari",
+              },
+              {
+                label: "[2021-11-26] Casa rural ballet",
+                to: "/viajes/2021/casa-rural-ballet",
+              },
             ],
           },
           {
             title: "2022-🚀",
+            items: [
+              {
+                label: "[2022-02-17] Lanzarote",
+                to: "/viajes/2022/lanzarote",
+              },
+              {
+                label: "[2022-03-12] Cumple Josu",
+                to: "/viajes/2022/cumple-josu",
+              },
+              {
+                label: "[2022-04-01] Cumple Raquel",
+                to: "/viajes/2022/cumple-raquel",
+              },
+              {
+                label: "[2022-06-11] Boda Irene y Juan",
+                to: "/viajes/2022/boda-irene-juan",
+              },
+            ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Pichuflines "On the road", Inc. Built with Docusaurus.`,

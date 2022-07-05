@@ -4,20 +4,33 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
+  min-height: 700px;
+  padding: 4rem 0;
+  align-items: flex-start;
+  justify-content: flex-start;
   overflow: hidden;
+  background-image: url('./bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .heroBanner {
+    background-position: center top;
+    background-size: auto 100%;
   }
 }
 
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
