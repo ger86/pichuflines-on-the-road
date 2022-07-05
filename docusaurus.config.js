@@ -117,6 +117,22 @@ const config = {
                 label: "[2020-02-27] Valencia",
                 to: "/viajes/2020/valencia",
               },
+              {
+                label: "[2020-03-27] Vietnam",
+                to: "/viajes/2020/vietnam",
+              },
+              {
+                label: "[2020-07-13] Cambrils",
+                to: "/viajes/2020/cambrils",
+              },
+              {
+                label: "[2020-08-22] Canet de mar",
+                to: "/viajes/2020/canet",
+              },
+              {
+                label: "[2020-09-17] Almería",
+                to: "/viajes/2020/almeria",
+              },
             ],
           },
           {
